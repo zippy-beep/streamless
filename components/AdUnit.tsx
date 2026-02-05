@@ -1,5 +1,5 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 type AdUnitProps = {
   title?: string;
@@ -12,11 +12,14 @@ export default function AdUnit({
   description,
   cta,
 }: AdUnitProps) {
+  const adRef = useRef<boolean>(false);
+
   useEffect(() => {
-    if (!title && !description && !cta) {
+    if (!title && !description && !cta && !adRef.current) {
       try {
         // @ts-ignore
         (window.adsbygoogle = window.adsbygoogle || []).push({});
+        adRef.current = true;
       } catch (err) {
         console.error('AdSense error:', err);
       }
