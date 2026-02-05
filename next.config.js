@@ -5,7 +5,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/streamless',
 };
 
 module.exports = nextConfig;
