@@ -28,7 +28,7 @@ export default function PrivacyPage() {
         </div>
       </div>
       <p className="mt-6 text-sm text-zinc-500 dark:text-zinc-400">
-        For data requests or questions, contact privacy@streamless.cloud
+        For data requests or questions, contact support@streamless.cloud
       </p>
     </section>
   );
