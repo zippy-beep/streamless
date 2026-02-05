@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "../styles/globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -15,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Streamless",
-  description: "Curated tools to promote your live streams.",
+  title: "Streamless – Best Streaming Apps",
+  description: "Discover the best movie and TV streaming apps (free & paid).",
 };
 
 export default function RootLayout({
@@ -29,6 +30,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-zinc-50 text-black dark:bg-black dark:text-white`}
       >
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          crossOrigin="anonymous"
+        />
         <Header />
         <main>{children}</main>
         <Footer />

@@ -1,6 +1,8 @@
-# StreamLess
+# 🎬 Streamless
 
-A curated directory of tools to help creators promote their live streams.
+> Discover the best movie & TV streaming apps (paid + free) with reviews, comparisons, and guides.
+
+A curated directory to help you find the perfect streaming service for movies and TV shows.
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 

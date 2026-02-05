@@ -6,15 +6,9 @@ export default function Home() {
   return (
     <div className="mx-auto flex w-full max-w-5xl flex-col gap-12 px-6 py-16">
       <section className="flex flex-col gap-6">
-        <p className="text-xs uppercase tracking-[0.2em] text-zinc-400">
-          Streamless
-        </p>
-        <h1 className="text-4xl font-semibold leading-tight text-black dark:text-white sm:text-5xl">
-          Promote your stream with the best creator tools.
-        </h1>
-        <p className="max-w-2xl text-lg text-zinc-600 dark:text-zinc-300">
-          Explore a curated directory of scheduling, clipping, engagement, and
-          analytics platforms built for live creators.
+        <h1 className="text-4xl font-bold text-black dark:text-white">🎬 Streamless</h1>
+        <p className="text-lg text-zinc-600 dark:text-zinc-400">
+          Discover the best streaming apps for movies & TV — free and premium.
         </p>
       </section>
 
@@ -27,9 +21,9 @@ export default function Home() {
         <div className="space-y-6">
           <AdUnit />
           <AdUnit
-            title="Creator ops toolkit"
-            description="Streamline brand briefs, invoices, and post-stream reporting in one workspace."
-            cta="Learn more"
+            title="Stream Smarter"
+            description="Compare plans and find the best streaming service for your budget."
+            cta="Compare now"
           />
         </div>
       </section>
