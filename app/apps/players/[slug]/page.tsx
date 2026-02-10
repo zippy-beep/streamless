@@ -1,22 +1,24 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { apps, getAppBySlug } from "../../../lib/apps";
-import AdUnit from "../../../components/AdUnit";
+import { apps, getAppBySlug } from "../../../../lib/apps";
+import AdUnit from "../../../../components/AdUnit";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
 };
 
 export const generateStaticParams = () =>
-  apps.filter((app) => app.category !== "Players").map((app) => ({ slug: app.slug }));
+  apps
+    .filter((app) => app.category === "Players")
+    .map((app) => ({ slug: app.slug }));
 
 export const generateMetadata = async ({ params }: PageProps): Promise<Metadata> => {
   const { slug } = await params;
   const app = getAppBySlug(slug);
 
-  if (!app) {
+  if (!app || app.category !== "Players") {
     return {
-      title: "App not found",
+      title: "Player not found",
     };
   }
 
@@ -26,11 +28,11 @@ export const generateMetadata = async ({ params }: PageProps): Promise<Metadata>
   };
 };
 
-export default async function AppDetailPage({ params }: PageProps) {
+export default async function PlayerDetailPage({ params }: PageProps) {
   const { slug } = await params;
   const app = getAppBySlug(slug);
 
-  if (!app || app.category === "Players") {
+  if (!app || app.category !== "Players") {
     notFound();
   }
 
@@ -38,7 +40,7 @@ export default async function AppDetailPage({ params }: PageProps) {
     <div className="mx-auto w-full max-w-4xl px-6 py-16">
       <section>
         <p className="text-xs uppercase tracking-[0.2em] text-zinc-400">
-          {app.category}
+          Media Player
         </p>
         <h1 className="mt-3 text-4xl font-semibold text-black dark:text-white">
           {app.name}
@@ -63,7 +65,7 @@ export default async function AppDetailPage({ params }: PageProps) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Watch on {app.name}
+            Get {app.name}
           </a>
         </div>
         <div className="mt-6">
