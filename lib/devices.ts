@@ -23,7 +23,7 @@ export const devices: Device[] = [
       "Roku is one of the most popular streaming platforms globally, offering access to thousands of streaming channels. Available in various models from Roku Express to Roku Ultra, it supports 4K and HDR content with an intuitive remote.",
     category: "Streaming Devices",
     pricing: "$29.99 - $99.99",
-    href: "https://www.roku.com",
+    href: "https://amzn.to/4qspwgw",
     highlights: [
       "4K Ultra HD support",
       "Thousands of channels",
@@ -43,7 +43,7 @@ export const devices: Device[] = [
       "Apple TV 4K delivers exceptional picture and sound quality with Dolby Vision, Dolby Atmos, and lossless audio. It integrates seamlessly with Apple's ecosystem and serves as a HomeKit hub for your smart home.",
     category: "Streaming Devices",
     pricing: "$129.99",
-    href: "https://www.apple.com/tv",
+    href: "https://amzn.to/4tuEvcC",
     highlights: [
       "Dolby Vision & Dolby Atmos",
       "HomeKit hub included",
@@ -63,7 +63,7 @@ export const devices: Device[] = [
       "Amazon Fire TV Stick offers flexible streaming options with access to thousands of apps and channels. With Alexa voice control, it's easy to search and navigate. Available in 4K Max for premium experience.",
     category: "Streaming Devices",
     pricing: "$39.99 - $54.99",
-    href: "https://www.amazon.com/firetv",
+    href: "https://amzn.to/4rbO3I4",
     highlights: [
       "Alexa voice control",
       "4K Max option available",
@@ -83,7 +83,7 @@ export const devices: Device[] = [
       "Google Chromecast brings thousands of streaming apps and games to your TV. With Google TV interface and voice control, discover personalized recommendations across all your favorite apps in one place.",
     category: "Streaming Devices",
     pricing: "$29.99 - $39.99",
-    href: "https://store.google.com/us/product/chromecast_google_tv",
+    href: "https://amzn.to/4bNO5Rr",
     highlights: [
       "Google Assistant built-in",
       "4K option available",
@@ -123,7 +123,7 @@ export const devices: Device[] = [
       "Samsung Smart TVs come with built-in streaming apps and Tizen OS, offering easy access to entertainment. With QLED technology and supporting 4K/8K resolutions, Samsung delivers exceptional picture quality.",
     category: "Smart TVs",
     pricing: "$299.99 - $2,999.99",
-    href: "https://www.samsung.com/us/televisions",
+    href: "https://amzn.to/403Uwsq",
     highlights: [
       "Built-in streaming apps",
       "QLED technology",
@@ -143,7 +143,7 @@ export const devices: Device[] = [
       "LG Smart TVs feature OLED or QLED technology with WebOS operating system, providing access to all major streaming apps. Known for exceptional contrast and color accuracy with support for 4K and 8K content.",
     category: "Smart TVs",
     pricing: "$399.99 - $3,999.99",
-    href: "https://www.lg.com/us/tvs",
+    href: "https://amzn.to/4refl0m",
     highlights: [
       "OLED/QLED options",
       "WebOS platform",
@@ -163,7 +163,7 @@ export const devices: Device[] = [
       "Xbox Series X is a next-generation gaming console that also excels as a streaming device. With its powerful hardware, it supports 4K/120fps gaming and streaming, plus Game Pass for thousands of entertainment options.",
     category: "Gaming Consoles",
     pricing: "$499",
-    href: "https://www.xbox.com",
+    href: "https://amzn.to/4bTza8x",
     highlights: [
       "4K/120fps gaming",
       "Game Pass included",
@@ -183,7 +183,7 @@ export const devices: Device[] = [
       "PlayStation 5 combines cutting-edge gaming with built-in streaming services. With backward compatibility, exclusive games, and support for various streaming apps, it's a complete entertainment solution.",
     category: "Gaming Consoles",
     pricing: "$499 - $649",
-    href: "https://www.playstation.com",
+    href: "https://amzn.to/4tpZUUt",
     highlights: [
       "Ultra HD Blu-ray Drive",
       "Exclusive games",
@@ -193,27 +193,7 @@ export const devices: Device[] = [
       "PlayStation 5 offers exclusive games and cutting-edge gaming performance combined with excellent streaming capabilities. The ultra-fast SSD ensures quick load times for both games and apps.",
       "With backward compatibility for PS4 games, exclusive next-gen titles, and built-in streaming services, PS5 is the complete entertainment system for gamers and entertainment enthusiasts.",
     ],
-  },
-  {
-    slug: "android-tv",
-    name: "Android TV",
-    icon: "🤖",
-    tagline: "Google's smart TV platform.",
-    description:
-      "Android TV is an open platform found in various smart TV brands and streaming devices. It offers Google Play Store access, voice control via Google Assistant, and seamless casting from mobile devices.",
-    category: "Smart TV Platforms",
-    pricing: "Varies by device",
-    href: "https://www.android.com/tv",
-    highlights: [
-      "Google Play Store",
-      "Google Assistant",
-      "Easy casting",
-    ],
-    whyChoose: [
-      "Android TV is available on a wide range of devices from multiple manufacturers, giving you flexibility in choosing hardware at different price points. With Google Play Store access, you have unlimited app options.",
-      "The Google Assistant integration and seamless casting from Android phones make it the natural choice for Google ecosystem users who want a customizable smart TV experience.",
-    ],
-  },
+  }
 ];
 
 export const getDeviceBySlug = (slug: string) =>
