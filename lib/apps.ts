@@ -261,46 +261,46 @@ export const apps: App[] = [
       "With excellent subtitle support, customizable controls, and open-source transparency, IINA provides Mac users with an elegant video playback solution.",
     ],
   },
-  {
-    slug: "splayer",
-    name: "SPlayer",
-    icon: "🎞️",
-    tagline: "Intelligent video player with streaming support.",
-    description:
-      "SPlayer Video Player for Mobile \n Among the best free video players out there, SPlayer is an incredible powerful video player that allows you to stream videos in all formats, and up to 4k resolution. With our simple UI and UX, you can easily configure your favorite setting for streaming. What sets SPlayer apart is the fact that it is not a video player only, but a media hub with file management tools and your own password-protected private box. Enhance your video viewing experience with SPlayer with our great built-in features NOW.",
-    category: "Players",
-    pricing: "Free",
-    href: "https://splayer.dev",
-    highlights: [
-      "Auto subtitle download",
-      "Streaming support",
-      "Lightweight design",
-    ],
-    whyChoose: [
-      "SPlayer stands out as an intelligent video player that goes beyond basic playback. With automatic subtitle downloading, 4K streaming support, and a clean, intuitive interface, it delivers a premium experience.",
-      "What truly sets SPlayer apart is its all-in-one approach with file management tools and a password-protected private box, making it not just a player but a complete media hub for your entertainment needs.",
-    ],
-  },
-  {
-    slug: "zippy-player",
-    name: "Zippy Player",
-    icon: "⚡",
-    tagline: "Fast and simple video player.",
-    description:
-      "Zippy Player is a fast, simple, and efficient video player designed for quick playback. It supports a wide range of video formats, offers smooth playback performance, and has a minimalist interface that gets out of your way.",
-    category: "Players",
-    pricing: "Free",
-    href: "https://zippyplayer.com",
-    highlights: [
-      "Fast performance",
-      "Minimalist UI",
-      "Format support",
-    ],
-    whyChoose: [
-      "Zippy Player lives up to its name with lightning-fast performance and smooth playback across all video formats. The minimalist interface stays out of your way, letting you focus on the content.",
-      "If you value simplicity, efficiency, and speed over complex features, Zippy Player is the perfect choice for a no-fuss video viewing experience.",
-    ],
-  },
+  // {
+  //   slug: "splayer",
+  //   name: "SPlayer",
+  //   icon: "🎞️",
+  //   tagline: "Intelligent video player with streaming support.",
+  //   description:
+  //     "SPlayer Video Player for Mobile \n Among the best free video players out there, SPlayer is an incredible powerful video player that allows you to stream videos in all formats, and up to 4k resolution. With our simple UI and UX, you can easily configure your favorite setting for streaming. What sets SPlayer apart is the fact that it is not a video player only, but a media hub with file management tools and your own password-protected private box. Enhance your video viewing experience with SPlayer with our great built-in features NOW.",
+  //   category: "Players",
+  //   pricing: "Free",
+  //   href: "https://splayer.dev",
+  //   highlights: [
+  //     "Auto subtitle download",
+  //     "Streaming support",
+  //     "Lightweight design",
+  //   ],
+  //   whyChoose: [
+  //     "SPlayer stands out as an intelligent video player that goes beyond basic playback. With automatic subtitle downloading, 4K streaming support, and a clean, intuitive interface, it delivers a premium experience.",
+  //     "What truly sets SPlayer apart is its all-in-one approach with file management tools and a password-protected private box, making it not just a player but a complete media hub for your entertainment needs.",
+  //   ],
+  // },
+  // {
+  //   slug: "zippy-player",
+  //   name: "Zippy Player",
+  //   icon: "⚡",
+  //   tagline: "Fast and simple video player.",
+  //   description:
+  //     "Zippy Player is a fast, simple, and efficient video player designed for quick playback. It supports a wide range of video formats, offers smooth playback performance, and has a minimalist interface that gets out of your way.",
+  //   category: "Players",
+  //   pricing: "Free",
+  //   href: "https://zippyplayer.com",
+  //   highlights: [
+  //     "Fast performance",
+  //     "Minimalist UI",
+  //     "Format support",
+  //   ],
+  //   whyChoose: [
+  //     "Zippy Player lives up to its name with lightning-fast performance and smooth playback across all video formats. The minimalist interface stays out of your way, letting you focus on the content.",
+  //     "If you value simplicity, efficiency, and speed over complex features, Zippy Player is the perfect choice for a no-fuss video viewing experience.",
+  //   ],
+  // },
 ];
 
 export const getAppBySlug = (slug: string) =>
