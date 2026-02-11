@@ -2,6 +2,8 @@ export type Device = {
   slug: string;
   name: string;
   icon: string;
+  image?: string; // Main product image
+  images?: string[]; // Gallery of additional images (different angles, accessories, etc.)
   tagline: string;
   description: string;
   category: string;

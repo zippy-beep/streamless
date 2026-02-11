@@ -2,6 +2,8 @@ export type App = {
   slug: string;
   name: string;
   icon: string;
+  image?: string; // Main logo/cover image
+  images?: string[]; // Gallery of additional images (screenshots, features, etc.)
   tagline: string;
   description: string;
   category: string;
@@ -16,6 +18,13 @@ export const apps: App[] = [
     slug: "netflix",
     name: "Netflix",
     icon: "🎬",
+    image: "/images/apps/netflix/logo.png",
+    images: [
+      "/images/apps/netflix/screenshot-1.jpg",
+      "/images/apps/netflix/screenshot-2.jpg",
+      "/images/apps/netflix/screenshot-3.jpg",
+      "/images/apps/netflix/feature-download.jpg",
+    ],
     tagline: "Stream unlimited movies and TV shows.",
     description:
       "Netflix is the world's leading streaming entertainment service with over 200 million memberships. Watch award-winning series, films, documentaries, and more.",

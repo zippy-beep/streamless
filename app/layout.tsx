@@ -4,6 +4,7 @@ import Script from "next/script";
 import "../styles/globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import FirebaseAnalytics from "../components/FirebaseAnalytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-zinc-50 text-black dark:bg-black dark:text-white`}
       >
+        <FirebaseAnalytics />
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
