@@ -4,9 +4,6 @@ const navItems = [
   { href: "/", label: "Home" },
   { href: "/apps", label: "Apps" },
   { href: "/devices", label: "Devices" },
-  { href: "/about", label: "About" },
-  { href: "/privacy", label: "Privacy" },
-  { href: "/terms", label: "Terms" },
 ];
 
 export default function Header() {

@@ -103,7 +103,7 @@ export const devices: Device[] = [
       "Nvidia Shield TV is a powerhouse for 4K streaming with advanced AI upscaling, gaming capabilities, and support for high-quality audio formats. It also functions as a HomeKit hub and supports MicroSD for storage expansion.",
     category: "Streaming Devices",
     pricing: "$149.99 - $199.99",
-    href: "https://www.nvidia.com/en-us/shield",
+    href: "https://amzn.to/3OhxoUI",
     highlights: [
       "8K support",
       "Gaming capabilities",
